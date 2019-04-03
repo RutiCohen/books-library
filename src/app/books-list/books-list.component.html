@@ -1,3 +1,5 @@
 <div *ngFor="let book of myBooksList">
-  <app-book [book]="book" (deleteBook)="deleteBookP(book)"></app-book>
+  <div class="col col-sm-3">
+      <app-book [book]="book" (deleteBook)="deleteBookP(book)"></app-book>
+  </div>
 </div>
